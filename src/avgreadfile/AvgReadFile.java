@@ -22,8 +22,7 @@ public class AvgReadFile {
      * The path g:/randnums.txt must change depending where
      * the file is located. */
 
-    BufferedReader readFile = new BufferedReader(
-       new FileReader("RandNums.txt"));
+    BufferedReader readFile = new BufferedReader(new FileReader("RandNums.txt"));
 
     int inMarks[] = new int[100];
     String myLine;
